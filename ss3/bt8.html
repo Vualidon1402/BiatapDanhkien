@@ -8,9 +8,33 @@
   <body>
     <table border="1 px">
       <tr>
-        <th>Thông tin sản phẩm</th>
-        <th>Tên sản phẩm:</th>
+        <th>
+          Thông tin sản phẩm <br />
+          <label for="">Tên sản phẩm</label> <input type="text" />
+          <label for="">Số lượng:</label> <input type="text" />
+        </th>
+      </tr>
+      <br />
+      <tr>
+        <td>
+          Thông tin giao hàng <br />
+          <label for="">Họ và tên:</label><input type="text" />
+          <label for="">Email:</label><input type="email" />
+          <label for="">Số điện thoại:</label><input type="text" />
+          <label for="">Địa chỉ:</label> <input type="text" />
+        </td>
+      </tr>
+      <br />
+      <tr>
+        <td>
+          Thông tin thanh toán <br /><label for="">Phương thức thanh toán</label
+          ><select name="Phuong thuc thanh toan" id="payment methods">
+            <option value="offline">Thanh toán khi nhận hàng</option>
+            <option value="online">Thanh toán trực tuyến</option>
+          </select>
+        </td>
       </tr>
     </table>
+    <input type="submit" value="Đặt hàng" />
   </body>
 </html>
